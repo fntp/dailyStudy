@@ -3,3 +3,11 @@
 15:36:29.785 [main] INFO  localTest.MyTest - 数值是%s
 15:36:52.868 [main] INFO  localTest.MyTest - 数值是57
 15:37:33.891 [main] INFO  localTest.MyTest - 数值是48
+16:29:15.676 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 是否是回文字符串：ll
+16:29:15.681 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 使用了6ms ms，消耗了6MB MB内存
+16:29:25.782 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 回文字符串：ll
+16:29:25.785 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 使用了5ms ms，消耗了5MB MB内存
+16:29:36.081 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 回文字符串：ll
+16:29:36.083 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 使用了4ms ms，消耗了4MB内存
+16:29:41.907 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 回文字符串：ll
+16:29:41.909 [main] INFO  l.dynamicProgramming.L20230103.Dp002 - 使用了4ms，消耗了4MB内存
