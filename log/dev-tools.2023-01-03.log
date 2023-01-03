@@ -1,0 +1,2 @@
+15:18:30.154 [main] INFO  l.dynamicProgramming.Dp001 - areNumbersAscending：false
+15:18:30.156 [main] INFO  l.dynamicProgramming.Dp001 - 使用了5ms ms，消耗了5MB MB内存
