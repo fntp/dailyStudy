@@ -1,2 +1,5 @@
 15:18:30.154 [main] INFO  l.dynamicProgramming.Dp001 - areNumbersAscending：false
 15:18:30.156 [main] INFO  l.dynamicProgramming.Dp001 - 使用了5ms ms，消耗了5MB MB内存
+15:36:29.785 [main] INFO  localTest.MyTest - 数值是%s
+15:36:52.868 [main] INFO  localTest.MyTest - 数值是57
+15:37:33.891 [main] INFO  localTest.MyTest - 数值是48
