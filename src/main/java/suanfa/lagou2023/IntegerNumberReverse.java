@@ -1,4 +1,4 @@
-package lagou2023;
+package suanfa.lagou2023;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * 逆序就是将整形数据 转为字符串
  * 在低级版本中
  * @author ys-0303
- * 
+ *
  * （1） 首位非零
  * （2）
  *
@@ -16,12 +16,12 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class IntegerNumberReverse {
 
-	
+
 	public static void main(String[] args) {
 //		log.info(reverse(1534236469)+"");
 		reverse(1534236469);
 	}
-	
+
 
     private static int reverse(int x) {
 		if(x >=Integer.MAX_VALUE || x <= Integer.MIN_VALUE){

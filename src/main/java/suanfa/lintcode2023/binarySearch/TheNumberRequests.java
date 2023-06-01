@@ -1,4 +1,4 @@
-package lintcode2023.binarySearch;
+package suanfa.lintcode2023.binarySearch;
 /**
  * The number of recent requests
  * @author fntp
@@ -6,6 +6,6 @@ package lintcode2023.binarySearch;
  *
  */
 public class TheNumberRequests {
-	
+
 
 }

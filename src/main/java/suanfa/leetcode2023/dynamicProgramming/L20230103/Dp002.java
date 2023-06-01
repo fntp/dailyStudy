@@ -1,4 +1,4 @@
-package leetcode2023.dynamicProgramming.L20230103;
+package suanfa.leetcode2023.dynamicProgramming.L20230103;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,16 +6,16 @@ import org.slf4j.LoggerFactory;
 import utils.TestPerformance;
 
 /**
- * 
+ *
  * 动态规划第一天：第二题 最长回文子串
- * 
+ *
  * @author fntp
  *
  */
 public class Dp002 {
-	
+
 	private static final Logger log = LoggerFactory.getLogger(Dp002.class);
-	
+
 	public static void main(String[] args) {
 		long beginTime = TestPerformance.getBegin();
 		String str = longestPalindrome("hello");
@@ -25,7 +25,7 @@ public class Dp002 {
 		String usedMemory = TestPerformance.usedMemory(beginTime, endTime);
 		log.info(String.format("使用了%s，消耗了%s内存", usedTimeMillons,usedMemory));
 	}
-	
+
 	public static String longestPalindrome(String s) {
 		// 如果目标字符串的长度低于2，那么直接进行
 		if(s.length() < 2) {
@@ -45,9 +45,9 @@ public class Dp002 {
         }
 		return s.substring(startIndex,startIndex+maxLength);
 	}
-	
+
 	/**
-	 * 
+	 *
 	 * @param charArray 目标字符数组
 	 * @param leftIndex 左指针
 	 * @param rightIndex 右指针
@@ -63,5 +63,5 @@ public class Dp002 {
 		}
 		return true;
 	}
-	
+
 }

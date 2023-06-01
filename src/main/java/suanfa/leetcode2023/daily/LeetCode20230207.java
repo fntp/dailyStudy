@@ -1,4 +1,4 @@
-package leetcode2023.daily;
+package suanfa.leetcode2023.daily;
 
 import java.util.List;
 

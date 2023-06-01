@@ -1,6 +1,5 @@
-package lagou2023;
+package suanfa.lagou2023;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 /**

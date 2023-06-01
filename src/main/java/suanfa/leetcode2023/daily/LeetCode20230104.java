@@ -1,4 +1,4 @@
-package leetcode2023.daily;
+package suanfa.leetcode2023.daily;
 
 /**
  * 有界数组中指定下标处的最大值
@@ -6,7 +6,7 @@ package leetcode2023.daily;
  *
  */
 public class LeetCode20230104 {
-	
-	
-	
+
+
+
 }

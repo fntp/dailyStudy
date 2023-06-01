@@ -1,4 +1,4 @@
-package leetcode2023.search;
+package suanfa.leetcode2023.search;
 
 /**
  * 搜索插入位置
@@ -6,14 +6,14 @@ package leetcode2023.search;
  * 搜索插入位置
  */
 public class SearchInsertIndex {
-	
+
 	public static void main(String[] args) {
 		SearchInsertIndex searchInsertIndex = new SearchInsertIndex();
 		int[] array = new int[] {1,2,3,4,5};
 		int searchInsertResult = searchInsertIndex.searchInsert(array, 6);
 		System.out.println(searchInsertResult);
 	}
-	
+
 	/**
 	 * 搜索插入位置
 	 * @param nums 排好序的数组
@@ -27,7 +27,7 @@ public class SearchInsertIndex {
     	}
     	if(nums[0]>target) {
     		return 0;
-    	} 
+    	}
     	int leftIndex = 0;
     	int rightIndex = nums.length-1;
     	while(leftIndex<rightIndex) {
