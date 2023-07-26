@@ -15,6 +15,8 @@ public class BlockingQueueTest {
     }
 
     public static void main(String[] args) {
+
+        // 环形队列 满了下标置0
         BlockingQueue<Node> nodeQueue = new ArrayBlockingQueue<>(10);
     }
 
