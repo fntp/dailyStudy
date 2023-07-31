@@ -8,6 +8,11 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
  */
 public class AQSTest extends AbstractQueuedSynchronizer {
 
+    public static void main(String[] args) {
+        System.out.println("[Ljava/lang/String");
+        System.out.println(new String[]{});
+    }
+
     /**
      * Creates a new {@code AbstractQueuedSynchronizer} instance
      * with initial synchronization state of zero.
