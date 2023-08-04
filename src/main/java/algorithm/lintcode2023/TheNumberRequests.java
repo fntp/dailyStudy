@@ -1,4 +1,4 @@
-package algorithm.lintcode2023.binarySearch;
+package algorithm.lintcode2023;
 /**
  * The number of recent requests
  * @author fntp
