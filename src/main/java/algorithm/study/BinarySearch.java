@@ -40,6 +40,16 @@ public class BinarySearch {
         return -1;
     }
 
+    /**
+     * 当有序数组中出现重复元素的时候，进行二分搜索，
+     * 搜索某个元素第一次出现的位置，就用leftMost，
+     * 查找最后一次出现的位置，就用rightMost
+     * 当查询目标是目标数组中不存在的数据
+     * 找不到的时候，i表示的是找到比目标数据大的且最靠左的数据
+     * @param nums
+     * @param target
+     * @return
+     */
     public int searchLeftMost(int[] nums, int target) {
         int i = 0, j = nums.length;
         while (i<=j) {
@@ -66,9 +76,17 @@ public class BinarySearch {
         return i - 1;
     }
 
+    /**
+     * 极端情况的时候普通二分复杂度不平均
+     * 因此这里就讲一种平均速度的二分
+     * @param nums
+     * @param target
+     * @return
+     */
     public int search_average(int[] nums, int target) {
         int i = 0, j = nums.length;
-        while (i<j-1) {
+        // j所指向的不在取值范围内，因此当i与j之间相差等于1的时候，这时候代表i与j范围内没有可用于比较的数据
+        while (1<j-i) {
             int m = (i+j) >>> 1;
             if (nums[m] > target) {
                 j = m ;
