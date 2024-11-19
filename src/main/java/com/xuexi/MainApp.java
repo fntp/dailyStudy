@@ -1,7 +1,6 @@
 package com.xuexi;
 
 import com.alibaba.fastjson.JSON;
-import com.xuexi.service.IService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
