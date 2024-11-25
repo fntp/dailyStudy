@@ -1,18 +1,9 @@
 package com.xuexi.suanfa;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import sun.security.provider.certpath.Vertex;
-
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
-import java.util.Set;
 
 /**
  * @author fntp
