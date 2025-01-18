@@ -1,11 +1,5 @@
 autoDetectedPackages:
-- cn.tulingxueyuan.base
-- cn.tulingxueyuan.cas
-- cn.tulingxueyuan.safe
-- cn.tulingxueyuan.test
-- cn.tulingxueyuan.tl
-- cn.tulingxueyuan.tools
-- localTest
+- com.xuexi
 enableAutoDetect: true
 funcDisplayConfig:
   skipConstructors: false
