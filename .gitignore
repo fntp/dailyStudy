@@ -1,1 +1,9 @@
 /target/
+/.idea/encodings.xml
+/.idea/compiler.xml
+/log/dev-tools.2025-02-07.log
+/.idea/jarRepositories.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.xcodemap/config/xcodemap-class-filter.yaml
