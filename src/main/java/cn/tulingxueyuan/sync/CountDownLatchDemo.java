@@ -1,9 +1,6 @@
 package cn.tulingxueyuan.sync;
 
 import lombok.SneakyThrows;
-
-
-import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 
